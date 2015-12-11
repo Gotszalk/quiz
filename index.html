@@ -1,0 +1,59 @@
+<!doctype html>
+    <html ng-app="testApp">
+      <head>
+		
+		<!-- Basic Page Needs
+		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<meta charset="utf-8">
+		<title>Test Yourself</title>
+		<meta name="description" content="simple self testing app with Angular">
+		<meta name="author" content="ab">
+		
+		<!-- Mobile Specific Metas
+		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- FONT
+		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+		
+		<!-- CSS
+		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/skeleton.css">
+		
+		<!--script src="websql.js""></script-->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+        <script src="test.js"></script>
+        <!--link rel="stylesheet" href="todo.css"-->
+      </head>
+      <body>
+	  
+	  <div class="container" style="margin: 10% 25% 10% 25%">
+		<div ng-controller="TestController as test">
+	
+			<div class="row">
+				
+				<input type="button" class="button-primary" ng-click="test.loadData()" value="Alfik Matematyczny 2015 klasy 2">
+				
+			</div>
+			<div class="row">
+				<h2>Quiz</h2>
+			</div>
+			<div class="row">
+				<h3>Pytanie {{test.qindex}}/{{test.elements}}</h3>
+			</div>
+			<div class="row" style="margin: 20px">
+				{{test.question}}
+			</div>
+			<div class="row">
+				<span ng-repeat="answer in test.answers">
+					<input type="button" class="button-primary" value="{{answer.text}}" ng-click="test.chosenAnswer(answer)">
+				</span>
+			</div>
+			
+			</div>
+		</div>
+      </body>
+    </html>
+

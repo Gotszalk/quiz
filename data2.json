@@ -1,0 +1,93 @@
+[
+	{"random": "no", "repeat": "no","confirmation": "no", "type":  "single-choice" },
+	{"question": {"text": "Jacek ma dwie dwuzłotówki i jedną pięciozłotówkę. Ile pieniędzy ma Jacek?", "type": "single"}, 
+		"answers": [
+			{"text": "7 zł", "pt": -3},
+			{"text": "8 zł", "pt": -3},
+			{"text": "9 zł", "pt": 3},
+			{"text": "10 zł", "pt": -3},
+			{"text": "11 zł", "pt": -3}
+		]
+	},
+	{"question": {"text": "Gdybym od liczby, o której pomyślałem odjął 7, to otrzymałbym wynik 3. O jakiej liczbie pomyślałem? ", "type": "single"},
+		"answers": [
+			{"text": "4", "pt": -3},
+			{"text": "7", "pt": -3},
+			{"text": "8", "pt": -3},
+			{"text": "9", "pt": -3},
+			{"text": "10", "pt": 3}
+			]
+	},
+	{"question": {"text": "Jedno jabłko to cztery ćwiartki, a półtora jabłka to:", "type": "single"},
+		"answers": [
+			{"text": "5 ćwiartek", "pt": -3},
+			{"text": "6 ćwiartek", "pt": 3},
+			{"text": "7 ćwiartek", "pt": -3},
+			{"text": "8 ćwiartek", "pt": -3},
+			{"text": "9 ćwiartek", "pt": -3}
+			]
+	},
+	{"question": {"text": "Drożdżówka kosztuje 2 zł‚. Jeśli za trzy drożdżówki zapłacimy banknotem 10-złotowym, to ile złotych reszty otrzymamy?", "type": "single"},
+		"answers": [
+			{"text": "4 zł", "pt": 3},
+			{"text": "5 zł", "pt": -3},
+			{"text": "6 zł", "pt": -3},
+			{"text": "6 zł", "pt": -3},
+			{"text": "8 zł", "pt": -3}
+			]
+	},
+	{"question": {"text": "Staszek podzielił 6 orzechów po równo między siebie i dwóch swoich kolegów. Ile orzechów dostał każdy z nich? ", "type": "single"},
+		"answers": [
+			{"text": "2", "pt": 3},
+			{"text": "3", "pt": -3},
+			{"text": "4", "pt": -3},
+			{"text": "5", "pt": -3},
+			{"text": "6", "pt": -3}
+			]
+	},
+	{"question": {"text": "W ilu miejscach trzeba złamać patyk, aby połamać go na pięć części? ", "type": "single"},
+		"answers": [
+			{"text": "2", "pt": -3},
+			{"text": "3", "pt": -3},
+			{"text": "4", "pt": 3},
+			{"text": "5", "pt": -3},
+			{"text": "6", "pt": -3}
+			]
+	},
+	{"question": {"text": " O godzinie 15:50 wskazówka godzinowa zegara znajduje się najbliżej liczby: ", "type": "single"},
+		"answers": [
+			{"text": "1", "pt": -3},
+			{"text": "2", "pt": -3},
+			{"text": "3", "pt": -3},
+			{"text": "4", "pt": 3},
+			{"text": "5", "pt": -3}
+			]
+	},
+		{"question": {"text": "Gdy Magda miała 4 lata, urodził się jej młodszy braciszek Jaś. Ile lat ma teraz Magda, jeśli Jaś ma 4 lata? ", "type": "single"},
+		"answers": [
+			{"text": "4 lata", "pt": -3},
+			{"text": "5 lat", "pt": -3},
+			{"text": "6 lat", "pt": -3},
+			{"text": "7 lat", "pt": -3},
+			{"text": "8 lat", "pt": 3}
+			]
+	},
+		{"question": {"text": "Jacek ma czterech starszych braci i jednego młodszego brata. Ilu starszych braci ma najmłodszy brat Jacka? ", "type": "single"},
+		"answers": [
+			{"text": "1", "pt": -3},
+			{"text": "2", "pt": -3},
+			{"text": "3", "pt": -3},
+			{"text": "4", "pt": -3},
+			{"text": "5", "pt": 3}
+			]
+	},
+			{"question": {"text": "Jeśli dwie godziny temu była godzina piąta, to kiedy będzie godzina ósma? ", "type": "single"},
+		"answers": [
+			{"text": "za godzinę", "pt": 3},
+			{"text": "za 2 godziny", "pt": -3},
+			{"text": "za 3 godziny", "pt": -3},
+			{"text": "za 4 godziny", "pt": -3},
+			{"text": "za 5 godzin", "pt": -3}
+			]
+	}
+]
