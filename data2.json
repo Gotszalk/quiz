@@ -63,7 +63,7 @@
 			{"text": "5", "pt": -3}
 			]
 	},
-		{"question": {"text": "Gdy Magda miała 4 lata, urodził się jej młodszy braciszek Jaś. Ile lat ma teraz Magda, jeśli Jaś ma 4 lata? ", "type": "single"},
+	{"question": {"text": "Gdy Magda miała 4 lata, urodził się jej młodszy braciszek Jaś. Ile lat ma teraz Magda, jeśli Jaś ma 4 lata? ", "type": "single"},
 		"answers": [
 			{"text": "4 lata", "pt": -3},
 			{"text": "5 lat", "pt": -3},
@@ -72,7 +72,7 @@
 			{"text": "8 lat", "pt": 3}
 			]
 	},
-		{"question": {"text": "Jacek ma czterech starszych braci i jednego młodszego brata. Ilu starszych braci ma najmłodszy brat Jacka? ", "type": "single"},
+	{"question": {"text": "Jacek ma czterech starszych braci i jednego młodszego brata. Ilu starszych braci ma najmłodszy brat Jacka? ", "type": "single"},
 		"answers": [
 			{"text": "1", "pt": -3},
 			{"text": "2", "pt": -3},
@@ -81,13 +81,103 @@
 			{"text": "5", "pt": 3}
 			]
 	},
-			{"question": {"text": "Jeśli dwie godziny temu była godzina piąta, to kiedy będzie godzina ósma? ", "type": "single"},
+	{"question": {"text": "Jeśli dwie godziny temu była godzina piąta, to kiedy będzie godzina ósma? ", "type": "single"},
 		"answers": [
 			{"text": "za godzinę", "pt": 3},
 			{"text": "za 2 godziny", "pt": -3},
 			{"text": "za 3 godziny", "pt": -3},
 			{"text": "za 4 godziny", "pt": -3},
 			{"text": "za 5 godzin", "pt": -3}
+			]
+	},
+	{"question": {"text": "W pudełku są 3 kulki czerwone, 2 kulki zielone i 4 kulki niebieskie. Ile co najmniej kulek trzeba wyjąć, aby w pudełku zostało więcej kulek niebieskich niż łącznie kulek zielonych i czerwonych?", "type": "single"},
+		"answers": [
+			{"text": "1", "pt": -4},
+			{"text": "2", "pt": 4},
+			{"text": "3", "pt": -4},
+			{"text": "4", "pt": -4},
+			{"text": "5", "pt": -4}
+			]
+	},
+	{"question": {"text": "Na pastwisku są cztery zwierzęta, które razem mają 12 nóg. Mogą to być:", "type": "single"},
+		"answers": [
+			{"text": "trzy krowy", "pt": -4},
+			{"text": "trzy gęsi i jedna krowa", "pt": -4},
+			{"text": "dwie gęsi i dwie krowy", "pt": 4},
+			{"text": "cztery gęsi", "pt": -4},
+			{"text": "jedna gęś i trzy krowy", "pt": -4}
+			]
+	},
+	{"question": {"text": "Jacek ma o 3 lata starszą siostrę i o 2 lata młodszego brata. O ile starsza jest siostra Jacka od brata Jacka? ", "type": "single"},
+		"answers": [
+			{"text": "1 rok", "pt": -4},
+			{"text": "2 lata", "pt": -4},
+			{"text": "3 lata", "pt": -4},
+			{"text": "4 lata", "pt": -4},
+			{"text": "5 lat", "pt": 4}
+			]
+	},
+	{"question": {"text": "Muchy mają po 6 nóg. Ile par butów potrzebuje rodzina much złożona z mamy-muchy, taty-muchy i dziecka-muchy?", "type": "single"},
+		"answers": [
+			{"text": "6", "pt": -4},
+			{"text": "8", "pt": -4},
+			{"text": "9", "pt": 4},
+			{"text": "12", "pt": -4},
+			{"text": "18", "pt": -4}
+			]
+	},
+	{"question": {"text": "Jeśli teraz wskazówka minutowa zegarka jest na czwórce, to za ile minut będzie na ósemce?", "type": "single"},
+		"answers": [
+			{"text": "10", "pt": -4},
+			{"text": "15", "pt": -4},
+			{"text": "20", "pt": 4},
+			{"text": "25", "pt": -4},
+			{"text": "30", "pt": -4}
+			]
+	},
+	{"question": {"text": "Wczoraj Maciek powiedział: „Za 3 dni są moje urodziny.” Kiedy są urodziny Maćka?", "type": "single"},
+		"answers": [
+			{"text": "jutro", "pt": -4},
+			{"text": "pojutrze", "pt": 4},
+			{"text": "za 3 dni", "pt": -4},
+			{"text": "za 4 dni", "pt": -4},
+			{"text": "urodziny Maćka były wczoraj", "pt": -4}
+			]
+	},
+	{"question": {"text": "Którego z banknotów nie można rozmienić „na pół”, to znaczy na dwa jednakowe banknoty lub dwie jednakowe monety?", "type": "single"},
+		"answers": [
+			{"text": "10 zł", "pt": -4},
+			{"text": "20 zł", "pt": -4},
+			{"text": "50 zł", "pt": 4},
+			{"text": "100 zł", "pt": -4},
+			{"text": "200 zł", "pt": -4}
+			]
+	},
+	{"question": {"text": "Mama kupiła 10-dniowy bilet autobusowy. Pierwszym dniem ważności biletu był wtorek. Kiedy wypadł ostatni dzień ważności biletu?", "type": "single"},
+		"answers": [
+			{"text": "w czwartek", "pt": 4},
+			{"text": "w piątek", "pt": -4},
+			{"text": "w sobotę", "pt": -4},
+			{"text": "w niedzielę", "pt": -4},
+			{"text": "w poniedziałek", "pt": -4}
+			]
+	},
+	{"question": {"text": "Dwa lata temu Bartek był o 3 lata starszy od Maćka. O ile starszy od Maćka jest dzisiaj?", "type": "single"},
+		"answers": [
+			{"text": "o rok", "pt": -4},
+			{"text": "o 2 lata", "pt": -4},
+			{"text": "o 3 lata", "pt": 4},
+			{"text": "o 4 lata", "pt": -4},
+			{"text": "o 5 lat", "pt": -4}
+			]
+	},
+	{"question": {"text": "Joasia chce podzielić 6 jabłek po równo między cztery swoje siostry. Ile co najmniej jabłek musi przekroić na pół?", "type": "single"},
+		"answers": [
+			{"text": "1", "pt": -4},
+			{"text": "2", "pt": 4},
+			{"text": "3", "pt": -4},
+			{"text": "4", "pt": -4},
+			{"text": "6", "pt": -4}
 			]
 	}
 ]
