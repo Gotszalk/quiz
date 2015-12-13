@@ -49,13 +49,19 @@
 			test.answers = test.quiz[i].answers;
         };
 		
+		test.endOfQuiz = function(){
+			test.question = "To koniec quizu. Uzyskałaś/eś " + test.points + " punktów.";
+			test.answers = [];
+			
+		}
+		
 		test.chosenAnswer = function(a) {
 			console.log("answer: "+a);
 			// count points
 			test.points += a.pt;
 			if(test.qindex === test.elements){
 				//end
-				alert("to koniec! masz "+ test.points + " punktów");
+				test.endOfQuiz();
 			}else{
 				test.dispQuestion(++test.qindex);
 			}
