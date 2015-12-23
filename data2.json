@@ -179,5 +179,95 @@
 			{"text": "4", "pt": -4},
 			{"text": "6", "pt": -4}
 			]
+	},
+	{"question": {"text": "Pierwsza godzina parkowania w centrum handlowym jest bezpłatna. Druga godzina kosztuje 2 zł. Każda następna godzina kosztuje 4 zł. Ile kosztuje pięciogodzinne parkowanie?", "type": "single"},
+		"answers": [
+			{"text": "12 zł", "pt": -5},
+			{"text": "14 zł", "pt": 5},
+			{"text": "16 zł", "pt": -5},
+			{"text": "18 zł", "pt": -5},
+			{"text": "20 zł", "pt": -5}
+			]
+	},
+	{"question": {"text": "Bartek, Michał i Staszek mają łącznie 19 lat. Ile lat będą mieli łącznie ci trzej chłopcy za dwa lata? ", "type": "single"},
+		"answers": [
+			{"text": "21", "pt": -5},
+			{"text": "22", "pt": -5},
+			{"text": "23", "pt": -5},
+			{"text": "24", "pt": -5},
+			{"text": "25", "pt": 5}
+			]
+	},
+	{"question": {"text": "W klasie Michała w każdej ławce siedzą dwie osoby. W trzech ławkach siedzą same dziewczynki, w dwóch ławkach – sami chłopcy, a w każdej z pozostałych ławek siedzi chłopiec z dziewczynką. O ile więcej dziewczynek niż chłopców jest w klasie Michała?", "type": "single"},
+		"answers": [
+			{"text": "1", "pt": -5},
+			{"text": "2", "pt": 5},
+			{"text": "3", "pt": -5},
+			{"text": "4", "pt": -5},
+			{"text": "6", "pt": -5}
+			]
+	},
+	{"question": {"text": "Zegarek Maćka pięć minut temu wskazywał godzinę 14:16. Wiemy, że zegarek ten spóźnia się o sześć minut. Która jest teraz naprawdę godzina?", "type": "single"},
+		"answers": [
+			{"text": "14:05", "pt": -5},
+			{"text": "14:15", "pt": -5},
+			{"text": "14:17", "pt": -5},
+			{"text": "14:21", "pt": -5},
+			{"text": "14:27", "pt": 5}
+			]
+	},
+	{"question": {"text": "Jacek dostał kilka jednakowych paczek cukierków. W każdej paczce było 6 cukierków. Jacek otworzył jedną paczkę i zjadłkilka cukierków. Ile paczek cukierków dostał Jacek, jeśli zostało mu 20 cukierków?", "type": "single"},
+		"answers": [
+			{"text": "2", "pt": -5},
+			{"text": "3", "pt": -5},
+			{"text": "4", "pt": 5},
+			{"text": "5", "pt": -5},
+			{"text": "6", "pt": -5}
+			]
+	},
+	{"question": {"text": " Mam kilka pudełek niebieskich i kilka czerwonych. Gdybym dwa pudełka czerwone przemalował na niebiesko, to pudełekczerwonych miałbym tyle samo co niebieskich. O ile więcej mam pudełek czerwonych niż niebieskich?", "type": "single"},
+		"answers": [
+			{"text": "1", "pt": -5},
+			{"text": "2", "pt": -5},
+			{"text": "3", "pt": -5},
+			{"text": "4", "pt": 5},
+			{"text": "5", "pt": -5}
+			]
+	},
+	{"question": {"text": "Pewna klasa liczy kilkunastu uczniów. Gdyby podzielić ich na 6-osobowe grupy, to 1 osoba by została. Gdyby natomiast dzielić klasę na 7-osobowe grupy, to w jednej grupie brakowałoby 1 osoby. Ilu uczniów liczy ta klasa?", "type": "single"},
+		"answers": [
+			{"text": "12", "pt": -5},
+			{"text": "13", "pt": 5},
+			{"text": "14", "pt": -5},
+			{"text": "15", "pt": -5},
+			{"text": "16", "pt": -5}
+			]
+	},
+	{"question": {"text": "W pudełku są kulki w trzech kolorach – niebieskim, czerwonym i białym. Kulek niebieskich jest więcej niż czerwonych, kulek czerwonych jest więcej niż białych, a białe kulki są dwie. Ile czerwonych kulek jest w pudełku, jeśli wszystkich kulek jest mniej niż 10? ", "type": "single"},
+		"answers": [
+			{"text": "2", "pt": -5},
+			{"text": "3", "pt": 5},
+			{"text": "4", "pt": -5},
+			{"text": "5", "pt": -5},
+			{"text": "6", "pt": -5}
+			]
+	},
+	{"question": {"text": " Pan Paweł ma sześcioro dzieci – synów i córki. Między te dzieci rozdzielił 10 cukierków w taki sposób, że każde dziecko dostało tyle cukierków ilu ma braci. Ilu synów ma pan Paweł?", "type": "single"},
+		"answers": [
+			{"text": "1", "pt": -5},
+			{"text": "2", "pt": 5},
+			{"text": "3", "pt": -5},
+			{"text": "4", "pt": -5},
+			{"text": "5", "pt": -5}
+			]
+	},
+	{"question": {"text": "Jacek ma monety dwuzłotowe i pięciozłotowe – razem mniej niż 10 monet. Ile monet ma Jacek, jeśli wiemy, że jego dwuzłotówki są warte tyle samo co jego pięciozłotówki?", "type": "single"},
+		"answers": [
+			{"text": "3", "pt": -5},
+			{"text": "5", "pt": -5},
+			{"text": "6", "pt": -5},
+			{"text": "7", "pt": 5},
+			{"text": "8", "pt": -5}
+			]
 	}
 ]
