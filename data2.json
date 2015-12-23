@@ -216,7 +216,7 @@
 			{"text": "14:27", "pt": 5}
 			]
 	},
-	{"question": {"text": "Jacek dostał kilka jednakowych paczek cukierków. W każdej paczce było 6 cukierków. Jacek otworzył jedną paczkę i zjadłkilka cukierków. Ile paczek cukierków dostał Jacek, jeśli zostało mu 20 cukierków?", "type": "single"},
+	{"question": {"text": "Jacek dostał kilka jednakowych paczek cukierków. W każdej paczce było 6 cukierków. Jacek otworzył jedną paczkę i zjadł kilka cukierków. Ile paczek cukierków dostał Jacek, jeśli zostało mu 20 cukierków?", "type": "single"},
 		"answers": [
 			{"text": "2", "pt": -5},
 			{"text": "3", "pt": -5},
@@ -225,7 +225,7 @@
 			{"text": "6", "pt": -5}
 			]
 	},
-	{"question": {"text": " Mam kilka pudełek niebieskich i kilka czerwonych. Gdybym dwa pudełka czerwone przemalował na niebiesko, to pudełekczerwonych miałbym tyle samo co niebieskich. O ile więcej mam pudełek czerwonych niż niebieskich?", "type": "single"},
+	{"question": {"text": " Mam kilka pudełek niebieskich i kilka czerwonych. Gdybym dwa pudełka czerwone przemalował na niebiesko, to pudełek czerwonych miałbym tyle samo co niebieskich. O ile więcej mam pudełek czerwonych niż niebieskich?", "type": "single"},
 		"answers": [
 			{"text": "1", "pt": -5},
 			{"text": "2", "pt": -5},
