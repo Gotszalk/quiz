@@ -24,7 +24,8 @@
 		
 		<!--script src="websql.js""></script-->
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
-        <script src="quiz.js"></script>
+		 <!--script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-messages.js"></script-->
+        <script src="js/quiz.js"></script>
         <!--link rel="stylesheet" href="todo.css"-->
       </head>
       <body>
@@ -51,7 +52,14 @@
 					<input type="button" class="button-primary" value="{{answer.text}}" ng-click="test.chosenAnswer(answer)">
 				</span>
 			</div>
-			
+			<div class="row">
+				<!--<div ng-messages="test.ok" role="alert">
+					<div ng-message="OK"> Odpowiedź poprawna! </div>
+					<div ng-message="notOK"> Odpowiedż błędna </div>
+					<div ng-message="null"> </div-->
+					{{test.msg}}
+				</div>
+			</div>
 			</div>
 		</div>
       </body>

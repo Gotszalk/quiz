@@ -1,7 +1,7 @@
 
 
     angular.module('testApp', [])
-      .controller('TestController', function($http) {
+      .controller('TestController', function($http,$timeout) {
         var test = this;
 		
 		//test vars
@@ -11,12 +11,14 @@
 		test.remainings = [];
 		test.points = 0;
 		test.elements = 0;
+		test.ok = "null";
 		
 		//quiz params
 		test.random = null;
 		test.repeat = null;
 		test.confirmation = null;
 		
+		//angular.module('app', ['ngMessages']);
      
         test.loadData = function() {
 			//alert("go");
@@ -55,9 +57,25 @@
 			
 		}
 		
+		test.clearMsg = function() {
+			test.msg = "";
+		}
+		
 		test.chosenAnswer = function(a) {
-			console.log("answer: "+a);
+			//console.log("answer: "+a);
 			// count points
+			
+			//confirmation?
+			if(this.confirmation === "yes"){
+				//display confirmation - how in Angularjs?.
+				if(a.pt > 0){
+					test.msg = "Dobra odpowiedź!";
+				}else{
+					test.msg = "Błędna odpowiedź.";
+				}
+			}
+			$timeout(function(){test.clearMsg();},2000);
+			
 			test.points += a.pt;
 			if(test.qindex === test.elements){
 				//end
@@ -66,11 +84,8 @@
 				test.dispQuestion(++test.qindex);
 			}
 			//repetition?
+
 			
-			//confirmation?
-			//if(this.confirmation === "yes"){
-			//	//display confirmation - how in Angularjs?.
-			//}
 			//
 			////go next depending on random
 			//if(this.random === "yes"){

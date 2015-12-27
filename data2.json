@@ -1,5 +1,5 @@
 [
-	{"random": "no", "repeat": "no","confirmation": "no", "type":  "single-choice" },
+	{"random": "no", "repeat": "no","confirmation": "yes", "type":  "single-choice" },
 	{"question": {"text": "Jacek ma dwie dwuzłotówki i jedną pięciozłotówkę. Ile pieniędzy ma Jacek?", "type": "single"}, 
 		"answers": [
 			{"text": "7 zł", "pt": -3},
